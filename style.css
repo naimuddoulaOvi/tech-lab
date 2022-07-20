@@ -52,7 +52,10 @@ header{
 
 /* main section style */
 main{
-    margin: 100px;
+    margin: 2%;
+}
+main .our-products,.newsletter-area{
+    padding:0% 4%;
 }
 section h2{
     text-align: center;
@@ -72,4 +75,54 @@ section h2{
 }
 .services img{
     width: 20%;
+}
+
+.our-products > h3{
+    padding: 20px 0 30px;
+} 
+section h2{
+    padding: 60px 0 30px;
+}
+.laptop-area,.phone-area{
+    display: flex;
+}
+.laptop, .phone{
+    padding: 20px 40px;
+    margin: 10px 30px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.1);
+    line-height: 30px;
+}
+.laptop h4, .phone h4{
+    font-size: 18px;
+}
+.phone img{
+    padding: 20px 0;
+}
+.newsletter{
+    background-color: rgba(255, 166, 0, 0.11);
+    text-align: center;
+    padding: 7%;
+    margin: 10px 30px;
+    border-radius: 5px;
+}
+input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+input[type="email"]{
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+}
+input.btn{
+    padding: 15px 30px;
+}
+footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5% 0%;
 }

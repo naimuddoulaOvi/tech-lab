@@ -29,6 +29,13 @@ h4{
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+    background: linear-gradient(45deg,orangered, orange);
+}
+.btn:hover{
+    background: none;
+    color: orange;
+    border: 1px solid orange;
+    padding: 9px 19px;
 }
 
 /* header style */
@@ -72,6 +79,10 @@ section h2{
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
+}
+#service-area .services:hover{
+    border: 1px solid orange;
+    margin: 19px;
 }
 .services img{
     width: 20%;
